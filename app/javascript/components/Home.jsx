@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Comments from "./Comments";
+
 
 export default () => (
   <div className="vw-100 vh-100 primary-color d-flex align-items-center justify-content-center">
@@ -9,6 +11,7 @@ export default () => (
         <p className="lead">
           A curated list of recipes for the best homemade meal and delicacies.
         </p>
+        <Comments />  
         <hr className="my-4" />
         <Link
           to="/recipes"
